@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+body::before {
+    background-image: url(https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color: white;
+}
+.header ul{
+
+    text-decoration: none;
+}
+
+
+.header ul li {
+    margin: 5px 50px;
+    font-size: 1.5rem;
+    padding: 7px;
+    border-radius: 9px;
+}
+.header ul li:hover{
+    background-color: rgb(21, 21, 21);
+    
+}
+
+
+.heading h1 {
+    font-size: 3rem;
+    font-family: 'My Soul', cursive;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 70px 23px;
+
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email input {
+    width: 200px;
+    text-align: center;
+}
+.submit1 button {
+    width: 150px;
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+.submit1 button:hover{
+    background-color: grey;
+    color: black;
+}
+
